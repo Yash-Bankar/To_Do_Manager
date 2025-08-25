@@ -7,7 +7,7 @@ function Navbar({ logo }) {
     <nav>
       <div className='nav'>
         <h1 className='font-bold text-3xl text-green-500'>
-          <img src={logoSvg} alt="Logo" className="inline w-8 h-8 mr-2 align-middle" /> {logo}
+          <a href="https://www.youtube.com/watch?v=uUex8ZupmfI"><img src={logoSvg} alt="Logo" className="inline w-8 h-8 mr-2 align-middle" /> {logo}</a>
         </h1>
         <div className="nav-links text-green-500">
           <a className='nav-link' href="">Home</a>
