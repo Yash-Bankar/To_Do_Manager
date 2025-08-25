@@ -13,9 +13,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-/*     
-    border: 0;
-    border-radius: 40px; */
+
     width: 100%;
     height: 5rem;
 }
@@ -40,4 +38,14 @@ a {
 }
 a:hover {
   color: #b8ffbc;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        width: 100%;
+    }
+    .nav-links {
+
+        gap: 0.5rem;
+    }
 }
