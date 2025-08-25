@@ -23,8 +23,7 @@ Designed for **simplicity, speed, and usability**.
 ## ✨ Features
 - ➕ Add, ✏️ Edit, and 🗑️ Delete tasks effortlessly  
 - ✅ Mark tasks as **completed**  
-- 📊 Organized task categories for better workflow  
-- 🌙 Light/Dark mode support with Tailwind utilities  
+- 📊 Organized task categories for better workflow   
 - 📱 Fully responsive design (desktop & mobile)  
 - ⚡ Blazing fast build and smooth performance  
 
@@ -75,20 +74,6 @@ You can customize the design in **`tailwind.config.js`**:
 - **Theme:** Extend colors, fonts, and spacing  
 - **Dark Mode:** Enable `class` strategy for manual toggle  
 - **Plugins:** Add extra Tailwind plugins if needed  
-
----
-
-## 📚 Examples
-
-```html
-<!-- Example: Task Card -->
-<div class="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md flex items-center justify-between">
-  <span class="text-gray-900 dark:text-gray-100">Finish project report</span>
-  <button class="px-2 py-1 text-sm text-white bg-green-500 rounded hover:bg-green-600">
-    Complete
-  </button>
-</div>
-```
 
 ---
 
