@@ -61,7 +61,7 @@ function App() {
     <>
     <Navbar logo={logo} />
 
-  <div className="container w-[100vw] md:w-[70vw] mx-auto flex flex-col items-center min-h-[70vh] p-4 border border-green-500 rounded-3xl mt-10 bg-[#1a1a1a]">
+  <div className="container w-[96vw] md:w-[70vw] mx-auto flex flex-col items-center min-h-[70vh] p-4 border border-green-500 rounded-3xl mt-10 bg-[#1a1a1a]">
       <div className="addtodo text-green-500 ">
         <h1 className="text-4xl font-bold typewriter">Add to-do's</h1>
           <input 
